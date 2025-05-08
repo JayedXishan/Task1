@@ -56,7 +56,7 @@ So we will use Interface when we need to work with class and if we need to exten
 
 
 
-** Q. Explain the difference between any, unknown, and never types in TypeScript. **
+**Q. Explain the difference between any, unknown, and never types in TypeScript.**
 
 *any Type :*
 
