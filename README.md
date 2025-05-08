@@ -5,10 +5,11 @@ We can define object structure in typeScript in 2 ways, interface and type. Thou
 
 *Declaration:* 
 
-interface Student {
+<pre lang="markdown">```interface Student {
     id:number;
     name:"string";
-}
+}```<pre>
+
 This is how we can declare interface.
 
 type Student = {
