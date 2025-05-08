@@ -5,7 +5,8 @@ We can define object structure in typeScript in 2 ways, interface and type. Thou
 
 *Declaration:* 
 
-<pre lang="markdown">interface Student {
+<pre lang="markdown">
+interface Student {
     id:number;
     name:"string";
 }</pre>
@@ -13,7 +14,7 @@ We can define object structure in typeScript in 2 ways, interface and type. Thou
 This is how we can declare interface.
 
 <pre lang="markdown">
-    type Student = {
+type Student = {
     id:number;
     name:"string";
 }
@@ -23,7 +24,7 @@ This is how we can declare type.
 
 Now if we want to merge Student using interface:
 <pre lang="markdown">
-    interface Student {
+interface Student {
     id:number;
     name:"string";
 }
@@ -102,7 +103,7 @@ function throwError(msg: string): never {
 the function will throw nothing but error.
 
 
-<pre lang="markdown>
+<pre lang="markdown">
 function DouraboShudhu(): never {
   while (true) {
     console.log("Running");
@@ -113,7 +114,7 @@ function DouraboShudhu(): never {
 the function is in infinity loop.
 
 
-<pre lang="markdown>
+<pre lang="markdown">
 type PH = "module" | "support" | "conceptual session";
 
 function shikteHbe(ph: PH) {
