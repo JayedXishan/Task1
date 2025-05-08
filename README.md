@@ -1,3 +1,4 @@
+**highlighted text**
 Q. What are some differences between interfaces and types in TypeScript?
 
 We can define object structure in typeScript in 2 ways, interface and type. Though they do almost the same tasks but there are some difference.
