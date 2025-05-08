@@ -8,7 +8,7 @@ We can define object structure in typeScript in 2 ways, interface and type. Thou
 <pre lang="markdown">```interface Student {
     id:number;
     name:"string";
-}```<pre>
+}```</pre>pre>
 
 This is how we can declare interface.
 
