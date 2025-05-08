@@ -1,9 +1,9 @@
-**highlighted text**
-Q. What are some differences between interfaces and types in TypeScript?
+
+**Q. What are some differences between interfaces and types in TypeScript?**
 
 We can define object structure in typeScript in 2 ways, interface and type. Though they do almost the same tasks but there are some difference.
 
-Declaration: 
+*Declaration:* 
 
 interface Student {
     id:number;
@@ -29,7 +29,7 @@ interface Student {
 But if we want to do the same thing with type it will give us error. It won't assign same name.
 
 
-Type Support (Union, Tuple, Primitive type) :
+*Type Support (Union, Tuple, Primitive type) :*
 
 Multiple types like union, tulpe, primitive type is supported by types but interface doesn't support this. 
 type Status = "success" | "error";
@@ -37,7 +37,7 @@ type Point = [number, number];
 type ID = number;
 
 
-Advanced logic or combinations:
+*Advanced logic or combinations:*
 
 We can easily handle advance logic and combination using Type. it would be hard to handle using interface.
 
@@ -45,9 +45,9 @@ So we will use Interface when we need to work with class and if we need to exten
 
 
 
-Q. Explain the difference between any, unknown, and never types in TypeScript.
+** Q. Explain the difference between any, unknown, and never types in TypeScript. **
 
-any Type :
+*any Type :*
 
 When we use any type typeScript stop checking type for that variable. So we can assign anything (number, string,boolean etc) to that variable and we can directly use it without type checking. But it is dangerous for type safety.
 
@@ -57,7 +57,7 @@ something = 10;
 something.toUpperCase();
 even here it won't show us the error.
 
-unknown type :
+*unknown type :*
 
 unknown type is a safe alternative to any type. we can assign anything but we can't use it without type checking.
 
@@ -71,7 +71,7 @@ if(typeof something === "string") something.toUpperCase();
 
 So we will use unknown type when the actual type is unknown. For example the data is comming from the external sources like API. but we will check type, narrow down the type before using it.
 
-never type:
+*never type:*
 
 We use never type when it return nothing (no value). never mainly uses in:
 when a function throw error, when there is a infinity loop and checking type in switch case.
